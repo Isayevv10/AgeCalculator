@@ -1,0 +1,33 @@
+body {
+  background-color: #2782e3;
+}
+h2 {
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
+  background: white;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+label {
+  color: cornflowerblue;
+  font-size: 19px;
+}
+input[type="number"]:hover {
+  outline: none;
+  border: 1px solid orange;
+}
+.result {
+  color: #114277;
+  font-size: 23px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.signupForm {
+  border-radius: 0 0 22px 22px;
+  border: 2px;
+  background-color: #eee;
+}
+::placeholder {
+  background-color: white;
+}
